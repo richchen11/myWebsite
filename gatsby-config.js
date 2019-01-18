@@ -1,5 +1,5 @@
 module.export = {
-
+    pathPrefix: "/myWebsite",
     plugins: [
      {
       resolve: `gatsby-plugin-typography`,
