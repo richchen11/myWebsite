@@ -6,7 +6,6 @@ import globalstyle from "../utils/global.css"
 
 
 export default () => (
-<div>
   <Layout> 
     <h1>About Me!</h1>
     <div className={styles.user}>
@@ -17,7 +16,6 @@ export default () => (
         "I am double degreeing with Material Science and Computer Science. "}</p>
       </div>
       </div>
-  </Layout>
       <div className = {globalstyle.footer}>@CopyRight</div>
-  </div>
+  </Layout>
 )
