@@ -8,7 +8,7 @@ import globalstyle from "../utils/global.css"
 export default () => (
 <div>
   <Layout> 
-    <h1>About Me</h1>
+    <h1>About Me!</h1>
     <div className={styles.user}>
       <img src={myPicture} className={styles.avatar} alt="" />
       <div className={styles.description}>
