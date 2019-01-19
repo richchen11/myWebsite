@@ -1,8 +1,9 @@
 import React from "react"
 import { Link } from "gatsby"
-
+import Container from "../components/container"
+import globalstyle from "../utils/global.css";
 const ListLink = props => (
-  <li style={{ display: `inline-block`, marginRight: `1rem` }}>
+  <li style={{ display: `inline-block`, marginRight: `1rem`,}}>
     <Link to={props.to}>{props.children}</Link>
   </li>
 )
@@ -14,8 +15,7 @@ export default ({ children }) => (
         <h3 style={{ display: `inline` }}>Richard Chen</h3>
       </Link>
       <ul style={{ listStyle: `none`, float: `right` }}>
-        <ListLink to="/about/">ABOUT</ListLink>
-        <ListLink to="/contact/">CONTACT</ListLink>
+        <ListLink to="/projects/">Projects</ListLink>
       </ul>
     </header>
     {children}
