@@ -6,7 +6,7 @@ import globalstyle from "../utils/global.css"
 
 
 export default () => (
-  <Layout> 
+  <Layout className = {globalstyle.layout}> 
     <h1>About Me!</h1>
     <div className={styles.user}>
       <img src={myPicture} className={styles.avatar} alt="" />
