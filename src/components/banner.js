@@ -1,8 +1,8 @@
 import React from "react";
 import beach from "../pages/photos/beach.jpeg";
-
+import globalstyles from "../utils/global.css";
 
 export default ({children}) => (
-<div class = "masthead"></div>
+<div className = {globalstyles.masthead}> </div>
 
 )

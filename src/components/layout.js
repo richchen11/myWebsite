@@ -17,7 +17,7 @@ export default ({ children }) => (
            Richard Chen
         </h3>
       </Link>
-      <ul style={{ listStyle: `none`, float: `right`, fontFamily: `Roboto, sans-serif;`}}>
+      <ul style={{ listStyle: `none`, float: `right`, fontFamily: `'Roboto', sans-serif;`}}>
         <ListLink to="/projects/"> PROJECTS</ListLink>
       </ul>
     </header>

@@ -15,8 +15,11 @@ export default () => (
       <img src = {profilePic} className= {globalstyles.avatar} alt="" />
       <div className={globalstyles.description}>
         <h2 className = {globalstyles.h2} >{"Richard Chen"}</h2>
-        <p className={globalstyles.p}>{"I'm currently a senior at the University of Maryland. " +
-        "I am double degreeing in Computer Science and Materials Engineering. "}</p>
+        <p className={globalstyles.p}>{"I'm currently a nongraduating senior at the University of Maryland," 
+        + "College Park. I am double degreeing in Computer Science and Materials Engineering."
+        + "I have previously worked in the Polymer Processing Laboratory of Dr. David Bigio as an undergraduate researcher."
+        + ""
+        }</p>
       </div>
 
       </div>
