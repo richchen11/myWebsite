@@ -1,26 +1,61 @@
-import React from "react"
-import { Link } from "gatsby"
-import globalstyle from "../utils/global.css";
+import React from 'react'
+import PropTypes from 'prop-types'
+import Helmet from 'react-helmet'
+import { StaticQuery, graphql } from 'gatsby'
 
+import '../assets/scss/main.scss'
 
-const ListLink = props => (
-  <li style= {{ display: `inline-block`, marginRight: `1rem`,fontFamily: `'Roboto', sans-serif;`}}>
-    <Link to={props.to}> {props.children}</Link>
-  </li>
-)
+const Layout = ({ children, location }) => {
 
-export default ({ children }) => (
-  <div style={{ margin: `0 auto`, maxWidth: 900, padding: `1.25rem 1rem` }}>
-    <header style={{ marginBottom: `1.5rem` }}>
-      <Link to="/" style={{ textShadow: `none`, backgroundImage: `none` }}>
-        <h3 className = {globalstyle.h3} style={{ display: `inline` }}>
-           Richard Chen
-        </h3>
-      </Link>
-      <ul style={{ listStyle: `none`, float: `right`, fontFamily: `'Roboto', sans-serif;`}}>
-        <ListLink to="/projects/"> PROJECTS</ListLink>
-      </ul>
-    </header>
-    {children}
-  </div>
-)
+  let content;
+
+  if (location && location.pathname === '/') {
+    content = (
+      <div>
+        {children}
+      </div>
+    )
+  } else {
+    content = (
+      <div id="wrapper" className="page">
+        <div>
+          {children}
+        </div>
+      </div>
+    )
+  }
+
+  return (
+    <StaticQuery
+      query={graphql`
+        query SiteTitleQuery {
+          site {
+            siteMetadata {
+              title
+            }
+          }
+        }
+      `}
+      render={data => (
+        <>
+          <Helmet
+            title={data.site.siteMetadata.title}
+            meta={[
+              { name: 'description', content: 'Sample' },
+              { name: 'keywords', content: 'sample, something' },
+            ]}
+          >
+            <html lang="en" />
+          </Helmet>
+          {content}
+        </>
+      )}
+    />
+  )
+}
+
+Layout.propTypes = {
+  children: PropTypes.node.isRequired,
+}
+
+export default Layout
