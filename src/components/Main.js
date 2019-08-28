@@ -23,7 +23,10 @@ class Main extends React.Component {
         <article id="Experience" className={`${this.props.article === 'Experience' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">Experience</h2>
           <span className="image main"><img src={pic02} alt="" /></span>
-          <p> My Latest Internship was with</p>
+          <p> My latest internship was with Aeongo Technologies in Englewood Cliffs, New Jersey.
+            Led two other interns on the back-end development of a microservice that would support an early childhood development product. Microservice was developed with the Spring Framework and a Postgres database. 
+            Created RESTful APIs to expose microservice for our front-end developers. API testing was performed with Swagger and Postman.
+            Integrated automated UI testing on our React Native Android application using Appium framework.  </p>
           {close}
         </article>
 
