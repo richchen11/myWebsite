@@ -13,8 +13,8 @@ class Main extends React.Component {
     return (
       <div ref={this.props.setWrapperRef} id="main" style={this.props.timeout ? {display: 'flex'} : {display: 'none'}}>
 
-        <article id="intro" className={`${this.props.article === 'intro' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
-          <h2 className="major">Intro</h2>
+        <article id="About Me" className={`${this.props.article === 'About Me' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
+          <h2 className="major">About Me</h2>
           <span className="image main"><img src={pic01} alt="" /></span>
           <p>Richard Chen.</p>
           {close}
@@ -22,14 +22,13 @@ class Main extends React.Component {
 
         <article id="Work Experience" className={`${this.props.article === 'Work Experience' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">Work</h2>
-          <h3 className= "major">Aeongo Technologies | Software Developer Intern | May 2019 – Aug 2019 </h3>
+          <h3 className= "major">Software Developer Intern @ Aeongo Technologies</h3>
           <ul>
-            <p> Led two other interns on the back-end development of a microservice that would support an early childhood development product. 
+            <p> -Led two other interns on the back-end development of a microservice that would support an early childhood development product. 
               Microservice was developed with the Spring Framework and a Postgres database. </p>
-            <p> Created RESTful APIs to expose microservice for our front-end developers. 
+            <p> -Created RESTful APIs to expose microservice for our front-end developers. 
               API testing was performed with Swagger and Postman. </p>
-            <p> Integrated automated UI testing on our React Native Android application using Appium framework. 
-              Polymer Processing Laboratory | Undergraduate Researcher </p>
+            <p> -Integrated automated UI testing on our React Native Android application using Appium framework. </p>
           </ul> 
           {close}
         </article>
