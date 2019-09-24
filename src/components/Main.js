@@ -33,8 +33,8 @@ class Main extends React.Component {
           {close}
         </article>
 
-        <article id="about" className={`${this.props.article === 'about' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
-          <h2 className="major">About</h2>
+        <article id="Side Projects" className={`${this.props.article === 'Side Projects' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
+          <h2 className="major">Side Projects</h2>
           <span className="image main"><img src={pic03} alt="" /></span>
           <p> hello</p>
           {close}

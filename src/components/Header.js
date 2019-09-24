@@ -10,14 +10,14 @@ const Header = (props) => (
             <div className="inner">
                 <h1> Richard Chen </h1>
                 <p>A Computer Science and Materials Engineering student at the University of Maryland.</p>
+                <p>Contact: chenrich11@gmail.com</p>
             </div>
         </div>
         <nav>
             <ul>
                 <li><a href="javascript:;" onClick={() => {props.onOpenArticle('About Me')}}>About Me</a></li>
                 <li><a href="javascript:;" onClick={() => {props.onOpenArticle('Work Experience')}}>Work Experience</a></li>
-                <li><a href="javascript:;" onClick={() => {props.onOpenArticle('about')}}>About</a></li>
-                <li><a href="javascript:;" onClick={() => {props.onOpenArticle('contact')}}>Contact</a></li>
+                <li><a href="javascript:;" onClick={() => {props.onOpenArticle('Side Projects')}}>Side Projects</a></li>
             </ul>
         </nav>
     </header>
