@@ -23,15 +23,17 @@ class Main extends React.Component {
         <article id="Work Experience" className={`${this.props.article === 'Work Experience' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">Work</h2>
           <p>Aeongo Technologies | Software Developer Intern
-          May 2019 – Aug 2019
-    • Led two other interns on the back-end development of a microservice that would support an early childhood development product. Microservice was developed with the Spring Framework and a Postgres database. 
-    • Created RESTful APIs to expose microservice for our front-end developers. API testing was performed with Swagger and Postman. 
-    • Integrated automated UI testing on our React Native Android application using Appium framework. 
-Polymer Processing Laboratory | Undergraduate Researcher
-June 2017 – Feb 2018
-    • Investigated and led the design for the implementation of resonant acoustic mixing (RAM) to improve the formation of polymer-based explosive binders. 
-    • Collaborated within a core 7-member lab group, lab groups in Department of Chemical Engineering, and the Naval Surface Warfare Center (NSWC).
-</p>
+            May 2019 – Aug 2019
+            • Led two other interns on the back-end development of a microservice that would support an early childhood development product. 
+              Microservice was developed with the Spring Framework and a Postgres database. 
+            • Created RESTful APIs to expose microservice for our front-end developers. 
+              API testing was performed with Swagger and Postman. 
+            • Integrated automated UI testing on our React Native Android application using Appium framework. 
+              Polymer Processing Laboratory | Undergraduate Researcher
+            June 2017 – Feb 2018
+            • Investigated and led the design for the implementation of resonant acoustic mixing (RAM) to improve the formation of polymer-based explosive binders. 
+            • Collaborated within a core 7-member lab group, lab groups in Department of Chemical Engineering, and the Naval Surface Warfare Center (NSWC).
+          </p>
           {close}
         </article>
 
