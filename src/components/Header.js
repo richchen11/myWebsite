@@ -1,5 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
+import resume from '../files/RichardChenResume.pdf'
 
 const Header = (props) => (
     <header id="header" style={props.timeout ? {display: 'none'} : {}}>
@@ -11,7 +12,7 @@ const Header = (props) => (
                 <h1> Richard Chen </h1>
                 <p>A Computer Science and Materials Engineering student at the University of Maryland.</p>
                 <p>Contact: chenrich11@gmail.com</p>
-                <a href="files/RichardChenResume.pdf"> Resume </a>
+                <a href={resume}>Click here for my resume</a>
             </div>
         </div>
         <nav>
