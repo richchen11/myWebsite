@@ -15,9 +15,9 @@ const Header = (props) => (
                 <p>Email me at chenrich11@gmail.com</p>
             </div>
         </div>
-        <p> </p>
         <nav>
             <ul>
+            <p> </p>
                 <li><a href="javascript:;" onClick={() => {props.onOpenArticle('About Me')}}>About Me</a></li>
                 <li><a href="javascript:;" onClick={() => {props.onOpenArticle('Work Experience')}}>Work Experience</a></li>
                 <li><a href="javascript:;" onClick={() => {props.onOpenArticle('Side Projects')}}>Side Projects</a></li>
