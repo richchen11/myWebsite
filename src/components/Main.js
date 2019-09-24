@@ -16,7 +16,7 @@ class Main extends React.Component {
         <article id="About Me" className={`${this.props.article === 'About Me' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">About Me</h2>
           <span className="image main"><img src={pic01} alt="" /></span>
-          <p>Richard Chen.</p>
+          <p> </p>
           {close}
         </article>
 
@@ -24,11 +24,10 @@ class Main extends React.Component {
           <h2 className="major">Work</h2>
           <h3 className= "major">Software Developer Intern @ Aeongo Technologies</h3>
           <ul>
-            <p> -Led two other interns on the back-end development of a microservice that would support an early childhood development product. 
+            <p> - Led two other interns on the back-end development of a microservice that would support an early childhood development product. 
               Microservice was developed with the Spring Framework and a Postgres database. </p>
-            <p> -Created RESTful APIs to expose microservice for our front-end developers. 
-              API testing was performed with Swagger and Postman. </p>
-            <p> -Integrated automated UI testing on our React Native Android application using Appium framework. </p>
+            <p> - Created RESTful APIs to expose microservice for our front-end developers. API testing was performed with Swagger and Postman. </p>
+            <p> - Integrated automated UI testing on our React Native Android application using Appium framework. </p>
           </ul> 
           {close}
         </article>
@@ -36,7 +35,7 @@ class Main extends React.Component {
         <article id="Side Projects" className={`${this.props.article === 'Side Projects' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">Side Projects</h2>
           <span className="image main"><img src={pic03} alt="" /></span>
-          <p> hello</p>
+          <p> In Progress </p>
           {close}
         </article>
 
