@@ -12,7 +12,7 @@ const Header = (props) => (
                 <h1> Richard Chen </h1>
                 <p>A Computer Science and Materials Engineering student at the University of Maryland.</p>
                 <p>Contact: chenrich11@gmail.com</p>
-                <a href={resume}>Click here for my resume</a>
+                <a href={resume}>Link to my Resume</a>
             </div>
         </div>
         <nav>
