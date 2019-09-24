@@ -103,6 +103,11 @@ class IndexPage extends React.Component {
               onCloseArticle={this.handleCloseArticle}
               setWrapperRef={this.setWrapperRef}
             />
+          <ul className="icons">
+            <li><a href="#" className="icon fa-facebook"><span className="label">Facebook</span></a></li>
+            <li><a href="https://www.instagram.com/chen_is_rich/" className="icon fa-instagram"><span className="label">Instagram</span></a></li>
+            <li><a href="#" className="icon fa-github"><span className="label">GitHub</span></a></li>
+          </ul>
             <Footer timeout={this.state.timeout} />
           </div>
           <div id="bg"></div>
