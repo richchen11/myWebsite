@@ -2,7 +2,6 @@ import React from 'react'
 import PropTypes from 'prop-types'
 
 import pic01 from '../images/pic01.jpg'
-import pic02 from '../images/pic02.jpg'
 import pic03 from '../images/pic03.jpg'
 
 class Main extends React.Component {
@@ -36,16 +35,6 @@ class Main extends React.Component {
           <h2 className="major">Side Projects</h2>
           <span className="image main"><img src={pic03} alt="" /></span>
           <p> In Progress </p>
-          {close}
-        </article>
-
-        <article id="contact" className={`${this.props.article === 'contact' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
-          <h2 className="major">Contact</h2>
-          <ul className="icons">
-            <li><a href="#" className="icon fa-linkedin"><span className="label">LinkedIn</span></a></li>
-            <li><a href="https://www.instagram.com/chen_is_rich/" className="icon fa-instagram"><span className="label">Instagram</span></a></li>
-            <li><a href="#" className="icon fa-github"><span className="label">GitHub</span></a></li>
-          </ul>
           {close}
         </article>
 
