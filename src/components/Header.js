@@ -9,8 +9,8 @@ const Header = (props) => (
         <div className="content">
             <div className="inner">
                 <h1> Richard Chen </h1>
-                <p>A Computer Science and Materials Engineering student at the University of Maryland.
-                    {"\n"} Contact: chenrich11@gmail.com</p>
+                <p>A Computer Science and Materials Engineering student at the University of Maryland.</p>
+                <p>Contact: chenrich11@gmail.com</p>
             </div>
         </div>
         <nav>
