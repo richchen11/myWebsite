@@ -16,9 +16,8 @@ class Main extends React.Component {
         <article id="About Me" className={`${this.props.article === 'About Me' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">About Me</h2>
           <span className="image main"><img src={pic01} alt="" /></span>
-          <p> 
-
-          </p>
+          <p>Hello! My name is Richard Chen! I'm studying computer science and materials engineering at the 
+            University of Maryland. I'm currently searching for 2020 summer internship opportunities! </p>
           {close}
         </article>
         <article id="Work Experience" className={`${this.props.article === 'Work Experience' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>

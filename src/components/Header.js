@@ -10,9 +10,8 @@ const Header = (props) => (
         <div className="content">
             <div className="inner">
                 <h1>Richard Chen </h1>
-                <p>A Computer Science and Materials Engineering student at the University of Maryland.</p>
-                <a href={resume}>Check out my resume!</a>
                 <p>Email me at chenrich11@gmail.com</p>
+                <a href={resume}>Check out my resume!</a>
             </div>
         </div>
         <nav>
