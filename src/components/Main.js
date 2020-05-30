@@ -56,7 +56,11 @@ class Main extends React.Component {
                   whenever changes are pushed to a central Git repository. </p>
           </ul>
           <div>
-          <h3 className= "major" href = "https://richchen11.github.io/">Analysis of the Professional Counter Strike Global Offensive Circuit</h3>
+    
+          <h3 className= "major">Analysis of the Professional</h3>
+          <h3 className = "major">Counter-Strike Global Offensive Circuit </h3>
+          <a href = "http://richchen11.github.io/">Link here</a>
+
           <ul>
             <p> - Created a tutorial of the entire data science pipeline from sourcing the data to 
                   generating a predictive model  
