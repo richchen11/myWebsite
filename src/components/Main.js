@@ -57,8 +57,8 @@ class Main extends React.Component {
           </ul>
           <div>
     
-          <h3 className= "major">Analysis of the Professional</h3>
-          <h3 className = "major">Counter-Strike Global Offensive Circuit </h3>
+          <h3 className= "major">Analysis of the Professional Counter-Strike</h3>
+          <h3 className = "major">Global Offensive Circuit </h3>
           <a href = "http://richchen11.github.io/">Link here</a>
 
           <ul>
