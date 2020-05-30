@@ -48,12 +48,21 @@ class Main extends React.Component {
           <h2 className="major">Side Projects</h2>
           <span className="image main"><img src={pic03} alt="" /></span>
 
-          <h3 className= "major">This personal website!</h3>
+          <h3 className= "major">Personal Website</h3>
           <ul>
             <p> - Created React components with Gatsby, a static website generator, 
                   for React JS to create the necessary HTML and CSS files.  </p>
             <p> -Deployed using Netlify, to allow continuous integration and continuous deployment (CI/CD) 
                   whenever changes are pushed to a central Git repository. </p>
+          </ul>
+
+          <h3 className= "major" href = "https://richchen11.github.io/" >Analysis of the Professional Counter Strike Global Offensive Circuit</h3>
+          <ul>
+            <p> - Created a tutorial of the entire data science pipeline from sourcing the data to 
+                  generating a predictive model  
+            </p>
+            <p> - Leveraged the following libraries: Pandas, Beautiful Soup (OPTIONAL), Matplotlib, Numpy, Scikit-Learn, Seaborn
+            </p>
           </ul>
 
 
