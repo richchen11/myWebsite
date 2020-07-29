@@ -11,7 +11,7 @@ export const headData = {
 export const heroData = {
   title: 'Hello! My name is ',
   name: 'Richard Chen',
-  subtitle: 'I am an unknown software engineer.',
+  subtitle: 'I am a software engineer.',
   cta: '',
 };
 
@@ -29,20 +29,21 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'cs_project',
-    title: '',
-    info: '',
+    title: 'Analysis of the Professional Counter Strike Global Offensive Circuit',
+    info: `Created a Python tutorial on the entire data science pipeline from data sourcing, data processing to generating a predictive model on the future performance of a Counter-Strike team.`,
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://richchen11.github.io/',
+    repo: 'https://github.com/richchen11/richchen11.github.io', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'bank_project',
+    title: 'Secure Bank ATM System',
+    info: `Designed and engineered a secure bank, ATM, and router system in C that
+    was resilient to various cybersecurity attacks.`,
     info2: '',
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: '', // if no repo, the button will not show up
   },
 ];
 
@@ -58,23 +59,13 @@ export const footerData = {
   networks: [
     {
       id: nanoid(),
-      name: 'twitter',
-      url: '',
-    },
-    {
-      id: nanoid(),
-      name: 'codepen',
-      url: '',
-    },
-    {
-      id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/97chenrichard/',
     },
     {
       id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/richchen11',
     },
   ],
 };
