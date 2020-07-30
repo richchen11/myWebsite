@@ -70,7 +70,7 @@ export const experiencesData = [
     id: nanoid(),
     company: 'Aeongo Technologies',
     title: 'Software Developer Intern (May 2019 - August 2019)',
-    img: 'aeongo.png'
+    img: 'aeongo'
   },
 ];
 

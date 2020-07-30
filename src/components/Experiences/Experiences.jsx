@@ -39,9 +39,11 @@ const Experiences = () => {
                     distance="30px"
                   >
                     <Figure>
+                    <div>
                     <ProjectImg alt={title} filename={img} />
                     <h2>{company}</h2>
                     <p>{title}</p>
+                    </div>
                     </Figure>
                   </Fade>
                 </Col>
