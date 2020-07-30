@@ -1,5 +1,5 @@
 import { nanoid } from 'nanoid';
-import bank_project from '../images/bank_project.png';
+import bank_project from '../images/bank_project.jpg';
 import myResume from '../images/RichardChenResume.pdf';
 
 // HEAD DATA
