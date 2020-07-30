@@ -1,7 +1,12 @@
 #projects {
   background-color: $white-color;
-  color: $dark-blue-text;
-  margin-top: -15rem;
+  background-image: linear-gradient(
+    2deg,
+    $primary-color 2%,
+    $secondary-color 50%
+  );
+  color: $white-color;
+  margin-top: 0rem;
   padding-top: 15rem;
 
   @include respond(tab-land) {

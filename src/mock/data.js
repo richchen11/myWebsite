@@ -12,7 +12,7 @@ export const headData = {
 // HERO DATA
 export const heroData = {
   title: 'Hello! My name is ',
-  name: 'Richard Chen',
+  name: 'Richard Chen.',
   subtitle: 'I am a software engineer.',
   cta: '',
 };
@@ -53,9 +53,17 @@ export const projectsData = [
 export const experiencesData = [
   {
     id: nanoid(),
-    company: '',
-    title: '',
-    info: ``,
+    company: 'Capital One',
+    title: 'Software Engineering Intern',
+    info: `hello`,
+    img: 'c1'
+  },
+  {
+    id: nanoid(),
+    company: 'Aeongo Technologies',
+    title: 'Software Developer Intern',
+    info: `hello`,
+    img: 'aeongo'
   },
 ];
 
