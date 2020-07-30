@@ -55,7 +55,7 @@ export const projectsData = [
     info: `Built with React, Gatsby and Netlify.`,
     info2: '',
     url: '',
-    repo: '', // if no repo, the button will not show up
+    repo: 'https://github.com/richchen11/myWebsite', // if no repo, the button will not show up
   },
 ];
 
