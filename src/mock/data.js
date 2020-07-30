@@ -20,7 +20,8 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpg',
-  paragraphOne: `Hello! My name is Richard Chen! I'm studying computer science and materials engineering at the University of Maryland, College Park. I'm seeking new graduate software engineering positions!`,
+  paragraphOne: `Hello! My name is Richard Chen! I'm studying computer science and materials engineering at the University of Maryland, College Park. 
+  I'm seeking 2020 new graduate software engineering positions!`,
   paragraphTwo: ' ',
   paragraphThree: ' ',
   resume: myResume, // if no resume, the button will not show up
@@ -46,6 +47,15 @@ export const projectsData = [
     info2: '',
     url: bank_project,
     repo: '', // if no repo, the button will not show up
+  },
+];
+
+export const experiencesData = [
+  {
+    id: nanoid(),
+    company: '',
+    title: '',
+    info: ``,
   },
 ];
 

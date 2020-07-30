@@ -4,6 +4,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 import Title from '../Title/Title';
 import AboutImg from '../Image/AboutImg';
 import PortfolioContext from '../../context/context';
+import myResume from '../../images/RichardChenResume.pdf';
 
 const About = () => {
   const { about } = useContext(PortfolioContext);
@@ -53,8 +54,9 @@ const About = () => {
                     <a
                       target="_blank"
                       rel="noopener noreferrer"
+                      type="application/pdf"
                       className="cta-btn cta-btn--resume"
-                      href={resume}
+                      href= {myResume}
                     >
                       Resume
                     </a>
