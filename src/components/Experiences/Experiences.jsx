@@ -25,7 +25,7 @@ const Experiences = () => {
     <section id="Experiences">
       <Container>
         <div className="experience-wrapper">
-          <Title title="Experiences" />
+          <Title title="Work Experiences" />
           {experiences.map((experience) => {
             const {id,company,title,info,url,repo, img} = experience;
             return (

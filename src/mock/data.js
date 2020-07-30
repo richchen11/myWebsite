@@ -48,22 +48,29 @@ export const projectsData = [
     url: bank_project,
     repo: '', // if no repo, the button will not show up
   },
+  {
+    id: nanoid(),
+    img: 'website',
+    title: 'Personal Portfolio Website',
+    info: `Built with React, Gatsby and Netlify.`,
+    info2: '',
+    url: '',
+    repo: '', // if no repo, the button will not show up
+  },
 ];
 
 export const experiencesData = [
   {
     id: nanoid(),
-    company: 'Capital One',
-    title: 'Software Engineering Intern',
-    info: `hello`,
+    company: 'Capital One Financial Corporation',
+    title: 'Software Engineering Intern (May 2020 - August 2020)',
     img: 'c1'
   },
   {
     id: nanoid(),
     company: 'Aeongo Technologies',
-    title: 'Software Developer Intern',
-    info: `hello`,
-    img: 'aeongo'
+    title: 'Software Developer Intern (May 2019 - August 2019)',
+    img: 'aeongo.png'
   },
 ];
 
