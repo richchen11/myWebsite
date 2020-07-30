@@ -1,4 +1,6 @@
 import { nanoid } from 'nanoid';
+import bank_project from '../images/bank_project.png';
+import myResume from '../images/RichardChenResume.pdf';
 
 // HEAD DATA
 export const headData = {
@@ -21,7 +23,7 @@ export const aboutData = {
   paragraphOne: `Hello! My name is Richard Chen! I'm studying computer science and materials engineering at the University of Maryland, College Park. I'm seeking new graduate software engineering positions!`,
   paragraphTwo: ' ',
   paragraphThree: ' ',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  resume: myResume, // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
@@ -42,7 +44,7 @@ export const projectsData = [
     info: `Designed and engineered a secure bank, ATM, and router system in C that
     was resilient to various cybersecurity attacks.`,
     info2: '',
-    url: '',
+    url: bank_project,
     repo: '', // if no repo, the button will not show up
   },
 ];
