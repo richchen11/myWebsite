@@ -21,7 +21,7 @@ export const heroData = {
 export const aboutData = {
   img: 'profile.jpg',
   paragraphOne: `Hello! My name is Richard Chen! I'm studying computer science and materials engineering at the University of Maryland, College Park. 
-  I'm seeking 2020 new graduate software engineering positions!`,
+  I'm an incoming associate software engineer at Capital One!`,
   paragraphTwo: ' ',
   paragraphThree: ' ',
   resume: myResume, // if no resume, the button will not show up
@@ -63,7 +63,8 @@ export const experiencesData = [
   {
     id: nanoid(),
     company: 'Capital One Financial Corporation',
-    title: 'Software Engineering Intern (May 2020 - August 2020)',
+    title: 'Associate Software Engineer (February 2021 - Present)',
+    subtitle: 'Software Engineering Intern (May 2020 - August 2020)',
     img: 'c1'
   },
   {

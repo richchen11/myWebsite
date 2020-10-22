@@ -27,7 +27,7 @@ const Experiences = () => {
         <div className="experience-wrapper">
           <Title title="Work Experiences" />
           {experiences.map((experience) => {
-            const {id,company,title,info,url,repo, img} = experience;
+            const {id,company,title,subtitle,info,url,repo, img} = experience;
             return (
               <Row key={id}>
                 <Col>
@@ -43,6 +43,7 @@ const Experiences = () => {
                     <ProjectImg alt={title} filename={img} />
                     <h2>{company}</h2>
                     <p>{title}</p>
+                    <p>{subtitle}</p>
                     </div>
                     </Figure>
                   </Fade>
