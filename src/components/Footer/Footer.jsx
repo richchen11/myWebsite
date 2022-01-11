@@ -15,7 +15,7 @@ const Footer = () => {
             <i className="fa fa-angle-up fa-2x" aria-hidden="true" />
           </Link>
         </span>
-        <p> © Copyright 2020 Richard Chen</p>
+        <p> © Copyright 2022 Richard Chen</p>
         <div className="social-links">
           {networks &&
             networks.map((network) => {
