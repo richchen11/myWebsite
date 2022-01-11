@@ -20,8 +20,8 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpg',
-  paragraphOne: `Hello! My name is Richard Chen! I'm studying computer science and materials engineering at the University of Maryland, College Park. 
-  I'm an incoming associate software engineer at Capital One!`,
+  paragraphOne: `Hello! My name is Richard Chen! I am currently pursuing a Masters Degree in Computer Science at Georgia Tech. I've graduated the University of Maryland, College Park with bachelor degrees in computer science and materials engineering.
+  I'm an associate software engineer at Capital One!`,
   paragraphTwo: ' ',
   paragraphThree: ' ',
   resume: myResume, // if no resume, the button will not show up
